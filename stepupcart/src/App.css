@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: Fixed (1,728px);
+  height: Fixed (1,117px);
+  /* gap: 40px; */
+}
+.user-login-model{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}

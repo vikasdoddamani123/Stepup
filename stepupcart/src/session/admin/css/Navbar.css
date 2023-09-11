@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: Fixed (1,728px);
+    height: Fixed (1,117px);
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: auto 250px;
+    justify-content: space-between;
+    align-items: center;
+    background: #041927;
+    padding:0px, 120px, 0px, 381px ; 
+}
+.header h1{
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.Dropdown1 h4{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.Dropdown1{
+    display: inline-flex;
+}

@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: Fixed (1,728px);
+    height: Fixed (1,117px);
+}
+
+.title h2{
+    text-align: left;
+    margin-left: 150px;
+}
