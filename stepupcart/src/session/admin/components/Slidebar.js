@@ -1,17 +1,51 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Slidebar() {
+function Sidebar({children}) {
+
+    const sidebaritems = [
+        {
+            path : "/admindashboard/",
+            name : "Dashboard"
+        },
+        {
+            name : "Employee's"
+        },
+        {
+            path : "/seller/Display",
+            name : "Seller"
+        },
+        {
+            name : "Product's"
+        },
+        {
+            
+            name : "Quatation Request"
+        },
+        {
+            name : "Order's"
+        }
+]
   return (
-    <div className='Main'>
-        <div className='slidebar'>
-            hello
+    <div className='container'>
+        <div className='sidebar'>
+            
+           {
+            sidebaritems.map((item , index) => (
+                <Link to = {item.path} 
+                key={index}
+                className="link"
+                activeClassName = "active"
+                >
+                    <div className='link-text'> {item.name} </div>
+                </Link>
+            ))
+           }
+          
         </div>
-        <div className='conatainer'>
-            hello4
-        </div>
-
+           {/* <main>{children}</main> */}
     </div>
   )
 }
 
-export default Slidebar
+export default Sidebar;

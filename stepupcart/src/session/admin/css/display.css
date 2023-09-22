@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: Fixed (1,728px);
+    height: Fixed (1,117px);
+}
+
+.table{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto ;
+    justify-content:center;
+    text-align: center;
+    justify-items:center;
+    box-shadow: -1px 12px 12px -6px rgba(0, 0, 0, 0.5);
+    padding: 5px 10px; 
+  }
+  .table th{
+    width: 350px;
+    padding: 10px;
+    background: #DDDDDD;
+    text-align: center;
+  }
+  
+  .table td{
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+    background: #F3F0F0;
+    border: 0.5px solid lightgray;
+
+  }
+  .button{
+   width: 150px;
+   height: 30px;
+   
+  }
+  .link11{
+    color:black;
+    padding: 10px 20px;
+
+  }
+.Addbutton{
+    padding: 10px 20px;
+}
+.button:hover{
+  background-color:limegreen;
+}
