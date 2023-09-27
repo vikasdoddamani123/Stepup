@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link  } from 'react-router-dom';
-
+import '../../CSS/displayproduct.css';
 import Navbar from '../../../admin/components/Navabar';
 import Sidebar from '../../components/Sellersidebar';
 import axios from 'axios';
@@ -68,17 +68,17 @@ useEffect( () => {
                 </th>
 
                 <th>
-                    Price
+                        Price
                 </th>
 
                 <th>
                         registerPhoto
                 </th>
                 <th>
-                    Update
+                      Update
                 </th>
                 <th>
-                    Delete
+                        Delete
                 </th>
             </tr>
 
@@ -96,8 +96,8 @@ useEffect( () => {
                         <td>{product.Product_ID}</td>
                         <td>{product.Product_sales}</td>
                         <td>{product.Price}</td>
-                        <td>{product.registerPhoto}
-                        {/* <img src={`http://localhost:8080/${product.registerPhoto?.path}`} alt="Imagefile" /> */}
+                        <td>
+                        <img className='register' src={`http://localhost:8080/${product.registerPhoto?.path}`} alt="Imagefile" />
                         </td>
 
                         <td>

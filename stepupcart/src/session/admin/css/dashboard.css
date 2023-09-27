@@ -8,17 +8,19 @@
 
 .Main{
     display: flex;
+    width: 1728px;
 }
 .title{
     height: 70px;
 }
 .Main-1{
     display: grid;
-    grid-template-columns: 300px 300px  300px ;
+    grid-template-columns: auto auto  auto ;
     height: 100px;
-    width: 100%;
+    width: 1380px;
     padding: 35px 35px;
     grid-gap: 10px;
+    
 }
 .dashboard-text{
     grid-column-start: 1;

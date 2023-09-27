@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: Fixed (1,728px);
+    height: Fixed (1,117px);
+    /* gap: 40px; */
+    text-decoration: none;
+  }
+  .user-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align:center;
+  }
+  .register-form{
+    width: 450px;
+    height: Fixed (506px);
+    top: 252px;
+    left: 652px;
+    gap: 5px;
+  }
+  .user-heading{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+  .firstname{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #121111;
+    padding: 10px 0;
+    background: transparent;
+    transition: 0.3s ease;
+    width: 306px;
+    height: 49px;
+  }
+  .lastname{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #121111;
+    padding: 10px 0;
+    background: transparent;
+    transition: 0.3s ease;
+    width: 306px;
+    height: 49px;
+  }
+  .email{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #121111;
+    padding: 10px 0;
+    background: transparent;
+    transition: 0.3s ease;
+    width: 306px;
+    height: 49px;
+  }
+  .password{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #121111;
+    padding: 10px 0;
+    background: transparent;
+    transition: 0.3s ease;
+    width: 306px;
+    height: 49px;
+  }
+  .confirmpassword{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid #121111;
+    padding: 10px 0;
+    background: transparent;
+    transition: 0.3s ease;
+    width: 306px;
+    height: 49px;
+  }
+  .register-text{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+  .reg-text-1{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+  }
+  .continue{
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .continue-text:hover{
+    background:darkseagreen
+  }
+  .continue-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.0024em;
+    text-align: center;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 20px;
+    width: 289px;
+    height:40px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }

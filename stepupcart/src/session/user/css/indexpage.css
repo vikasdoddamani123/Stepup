@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: Fixed (1,728px);
+    height: Fixed (1,117px);
+  }
+.Banner11{
+    width: 100%;
+    position: relative;
+}
+
+.photo11{
+    position: absolute;
+    width: 612px;
+    height: 402px;
+    top: 70px;
+    left: 980px;
+
+}
+.photo1{
+    width:100%;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.Banner22{
+    width: 100%;
+    height: 100%;
+    left: -2px;
+    position: relative;
+
+}
+.photo22{
+    width: 620px;
+    height: 326px;
+    top: 140px;
+    left: 120px;
+    position: absolute;
+}
+.photo2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 1728px;
+    height: 656px;
+    top: 814px;
+    left: -2px;
+    ;
+
+}
+.Banner-grp{
+    display:  grid;
+    grid-template-columns: 1728px;
+    grid-template-rows: 540px 540px 530px;
+    height:  656px;
+    position: relative;
+
+}
+.photo33{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 100%;
+
+}
+.photo3{
+    position: absolute;
+    width: 508px;
+    height: 505px;
+    top: 290px;
+    left: 290px;
+
+}
+.Banner33{
+    width: 100%;
+    height: 100%;
+    left: -2px;
+    position: relative;
+}
+.text11{
+    position: relative;
+}
+.text111{
+    position: absolute;
+    bottom: 500px;
+    left: 80px;
+    width: 648px;
+    height: 150px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+.text112{
+    
+    height: 56px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.index-btn{
+    top: 150px;
+    left: 500px;
+
+}
+.index-btn1{
+    position: absolute;
+    top: 320px;
+    left: 350px;
+    width: 119px;
+    height:40px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 20px;
+    gap: 10px;
+    color: #000000;
+    background: #FFFFFF;
+
+}
+.text22{
+    position: relative;
+    bottom: 600px;
+    left: 250px;
+}
+.text222{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: -0.055em;
+    text-align: center;
+    color: #FFFFFF;
+    left: 20px;
+    width: 1313px;
+    
+}
+.text223{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    left: 650px;
+    top: 150px;
+    width: 407px;
+    height: 106px;
+
+}
+.index-btn22{
+    top: 150px;
+    left: 500px;
+}
+.index-btn2{
+    position: absolute;
+    top: 330px;
+    left: 900px;
+    width: 311px;
+    height:40px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 20px;
+    gap: 10px;
+    color: #000000;
+    background: #FFFFFF;
+
+}
+.text333{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.text334{
+    position: absolute;
+    top: 420px;
+    left: 950px;
+    font-family: Roboto;
+    font-size: 57px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.container-footer{
+    display: grid;
+
+}

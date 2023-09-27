@@ -13,6 +13,10 @@ const sellerRoutes = require("./Routes/sellerRoutes/sellerRoutes")
 const selleradminRoutes = require("./Routes/selleradminRoutes/sellerauth")
 const adminsellerController = require("./Controller/adminsellerController/adminsellerController")
 const sellerproductRoute = require("./Routes/productsRoutes/sellerproductRoutes")
+//user
+const useradminroutes = require("./Routes/userRoutes/userRoutes") 
+// const userController = require("./Controller/userauthController/userauthController")
+
 
 const app = express();
 const PORT = process.env.PORT || 8080;
@@ -42,6 +46,9 @@ adminsellerController.adminpost();
  //seller
  app.use("/api/selleradmin", selleradminRoutes)
  app.use("/api/products",sellerproductRoute )
+
+ //user
+ app.use("/api/register", useradminroutes)
  
 app.use('/public/images', express.static('public/images'));
 

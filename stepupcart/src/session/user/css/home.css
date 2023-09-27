@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: Fixed (1728px);
+    height: Fixed (1117px);
+    text-decoration: none;
+  }
+  .slideshow{
+    margin-left: 120px;
+    margin-right: 120px;
+    
+  }
+  .Bannerslide{
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  .home-banner{
+    position: relative;
+  }
+
+ .sub_banner{
+    position: absolute;
+    margin-left: 120px;
+    margin-right: 120px;
+    top: 80px;
+    right: 70px;
+    width: 307px;
+    height: 284px;
+    padding: 60.89px, 15.35px, 15.19px, 15.35px;
+
+ }
+ .banner_text{
+    position: absolute;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 626px;
+    height: 178px;
+    top: 96px;
+    left: 431px;
+ }
+ .banner_text_1{
+    position: absolute;
+    font-family: Merriweather;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    width: 311px;
+    height: 60px;
+    top: 155px;
+    left: 120px;
+  
+
+ }
+
+ .Home_btn1{
+  width: 129px;
+  height: 41px;
+  top: 274px;
+  left: 208px;
+  padding: 12px, 24px, 10px, 24px;
+  border-radius: 20px;
+  gap: 10px;
+  position: absolute;  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+ }
+  .Home_btn1:hover{
+  background-color:lightblue;
+ }
+.slide_head{
+  width: 333px;
+  height: 28px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
+.Recent{
+  position: relative;
+}
+.text{
+  position: absolute;
+  bottom: 50px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  padding-left: 20px;
+  
+
+}
+.text-1{
+  position: absolute;
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+bottom: 30px;
+padding-left: 20px;
+color: #FFFFFF;
+width: 323px;
+height: 16px;
+
+
+}
+.plumbing-pipes{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.plumbing-text1{
+  width: 304px;
+  height: 28px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 5px 15px;
+
+
+}
+.plumbing-text2{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px 15px;
+}
+.plumbing-text3{
+  font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+padding: 5px 15px;
+
+}
+.plumbind-head{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+ 
+}
+.plumbing{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+}
+.plumbing-01{
+    width: 354px;
+    height: 345px;
+    border-radius: 16px, 16px, 0px, 0px;
+
+}
+.cart-with-buy1{
+  display: flex;
+  gap: 20px;
+}
+.cart-with-buy{
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 20px;
+
+}
+.Tap-text-1{
+
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.Tap-text-2{
+  width: 354.5px;
+  height: 38px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-align: left;
+
+
+}
+.Tap-text-3{
+  width: 354.5px;
+  height: 19px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  
+}
+.Tap-btn{
+  width: 104px;
+  height: 40px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 20px;
+  gap: 10px;
+  background: #DF8327;
+  color: #FFFFFF;
+  margin-left: 220px;
+  margin-top: 80px;
+}
+.Adhessive{
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+}
+.Adhessive-text-1{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.Adhessive-text-2{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  
+}
+.Adhessive-head{
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 20px;
+
+}
+.Footer{
+  width: 1,728px;
+  height: 209px;
+  padding: 28px, 32px, 28px, 32px;
+  gap: 24px;
+  background: #000000;
+  display: grid;
+  grid-template-columns: 1fr 115px 115px 115px 125px 1fr;
+  color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.col-11{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.about-1{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  width: 47px;
+  height: 16px;
+  color: #FFFFFF80;
+
+
+}
+.about-2{
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-align: left;
+
+}
