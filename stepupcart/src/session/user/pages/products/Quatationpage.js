@@ -7,6 +7,7 @@ import Product3 from '../../images/Rectangle 52 (2).svg'
 import Product4 from '../../images/Rectangle 53.svg'
 import Product5 from '../../images/Rectangle 52.svg'
 import {FaStar} from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const colors = {
   orange : "orange",
@@ -58,8 +59,26 @@ const handleMouseLeave = () => {
       <p className='title-4'>Brand Name</p><br/>
       <p className='title-5'>Maximum Order Quantity : 10 tons</p>
     </div>
+    <div className='checkbox-grp'>
+      <p className='QTY'>QTY :</p><br/>
+      <div className='checkbox-grp-1'>
+      <input type='checkbox' className='checkbox-btn-11'/>
+      <p className='checkbox-text'>15mm</p>
+      <input type='checkbox' className='checkbox-11'/>
+      <p className='checkbox-text'>15mm</p>
+       </div>
+      <div className='checkbox-grp-1'>
+      <input type='checkbox' className='checkbox-11'/>
+      <p className='checkbox-text'>15mm</p>
+      <input type='checkbox' className='checkbox-11'/>
+      <p className='checkbox-text'>15mm</p>
+      </div>
+     
+    </div>
     <div className='quatation-btn'>
+      <Link to ='/Getquatation'>
       <button className='quatation-btn-1' type='submit'>Get Quatation</button>
+      </Link>
     </div>
   </div>
   <div className='delivery-text'>

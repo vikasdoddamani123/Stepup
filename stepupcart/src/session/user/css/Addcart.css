@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: Fixed (1,728px);
+    height: Fixed (1,117px);
+    text-decoration: none;
+  }
+  .Addcart-conatiner{
+    margin-left: 120px;
+    margin-right: 120px;
+    display: grid;
+    grid-template-columns: 400px 500px;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 20%;
+
+  }
+  .Addcart-image-1{
+    width: 380px;
+    height: 300px;
+    gap: 10px;
+
+  }
+  .Addcart-text{
+    padding-top: 40px;
+  }
+  .Addcart-text-1{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 656.5px;
+    height: 28px;
+    color: #000000;
+  }
+  .qty-add{
+    display: flex;
+    gap: 10px;
+  }
+  .qty-cart{
+    display: flex;
+    gap: 20px;
+  }
+.Addcart-6{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    width: 49px;
+    height: 19px;
+    color: #000000;
+}
+  .checkbox-qty{
+    color: blue;
+  }
+  .Addcart-text-2{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    width: 656.5px;
+    height: 19px;
+    color: #000000;
+  }
+  .Addcart-text-3{
+    display: flex;
+    gap: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.001em;
+    text-align: left;
+
+
+  }
+.Addcart-text-4{
+    color: blue;
+}
+  .text-center{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    color: black;
+  }
+  .qty-btn{
+    display: flex;
+  }
+  .Minus-btn{
+    width: 20px;
+    height: 20px;
+  }
+  .per-piece{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    width: 329px;
+    height: 19px;
+    color: #000000;
+
+  }
+  .estimate{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  .buynow-1{
+    width: 104px;
+    height: 40px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 20px;
+    gap: 10px;
+    background: #DF8327;
+    color: #FFFFFF;
+    
+  }
+  .buynow-2{
+    width: 104px;
+    height: 40px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 20px;
+    gap: 10px;
+    background: #DF8327;
+    color: #FFFFFF;
+  }
+  .cart-btn-grp{
+    display: flex;
+    gap: 50px;
+  }
+

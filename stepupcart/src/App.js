@@ -21,6 +21,9 @@ import UserLogin from './session/user/pages/auth/UserLogin';
 import Userregister from './session/user/pages/auth/Userregister';
 import Home from './session/user/pages/products/home';
 import Quatation from './session/user/pages/products/Quatationpage';
+import Getquatation from './session/user/pages/products/Getquatation';
+import Addcart from './session/user/pages/products/Addcart';
+import Printquatation from './session/user/pages/products/Printquatation';
 
 
 function App() {
@@ -57,6 +60,9 @@ function App() {
             <Route exact path='/userRegister' element={<Userregister/>}/>
             <Route exact path='/Home' element={<Home/>}/>
             <Route exact path='/Quatation' element={<Quatation/>}/>
+            <Route exact path='/Getquatation' element={<Getquatation/>}/>
+            <Route exact path='/Addcart' element={<Addcart/>}/>
+            <Route exact path='/Printquatation' element={<Printquatation/>}/>
 
 
       </Routes>
