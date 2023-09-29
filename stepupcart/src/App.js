@@ -38,7 +38,7 @@ function App() {
             <Route exact path='/seller/Display' element={<Display/>}/>
             <Route exact path='/seller/:_id/edit' element={<Updateseller/>}/>
             <Route exact path='/seller/:_id/delete' element={<Deleteseller/>}/>
-            <Route exact path='seller/:_id' element={<Detailsseller/>}/>
+            <Route exact path='seller/view/:_id' element={<Detailsseller/>}/>
 
 
 

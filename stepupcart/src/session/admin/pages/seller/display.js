@@ -56,7 +56,11 @@ function Display() {
             <tr>
             
                 <th>
-                    Name
+                   First Name
+                </th>
+
+                <th>
+                    Last Name
                 </th>
 
                 <th>
@@ -64,11 +68,7 @@ function Display() {
                 </th>
 
                 <th>
-                    PhoneNumber
-                </th>
-
-                <th>
-                    Address
+                    Phone Number
                 </th>
 
                 <th>
@@ -97,11 +97,12 @@ function Display() {
                         
         
                      <tr key ={seller._id}>
-                        <td>{seller.Name}</td>
-                        <td>{seller.Email}</td>
+                        <td>{seller.firstName}</td>
+                        <td>{seller.lastName}</td>
+                        <td>{seller.email}</td>
                         <td>{seller.PhoneNumber}</td>
-                        <td>{seller.Address}</td>
-                        <td>{seller.OutletName}</td>
+                        {/* <td>{seller.Address}</td> */}
+                        <td>{seller.outletName}</td>
                         <td>{seller.GST_Number}</td>
                     <td>
                             <button>
