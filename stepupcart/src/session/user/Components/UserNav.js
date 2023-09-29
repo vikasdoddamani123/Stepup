@@ -3,6 +3,7 @@ import '../css/usernav.css'
 import { Link } from 'react-router-dom'
 import Pic1 from '../images/Vector 1.svg'
 import Pic2 from '../images/Vector 2.svg'
+import {BsSearch} from "react-icons/bs"
 
 function UserNav() {
   return (
@@ -12,6 +13,15 @@ function UserNav() {
         <Link to ="/Home" className='link1'>
         <h1>StepUpCart</h1>
         </Link>
+    </div>
+    <div className='search'>
+        <div className='search-grp'>
+        <input type='text'
+        className='search-text'
+        placeholder='Search..'
+       />
+        <BsSearch className='search-icon'/>
+        </div>
     </div>
     <div className='logo-items'>
         Products

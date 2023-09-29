@@ -99,6 +99,7 @@
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
+    padding-top: 100px;
 
 }
 .quatation-btn-1{
@@ -291,4 +292,14 @@
 .similar-product{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.checkbox-grp{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+.checkbox-grp-1{
+    display: flex;
 }
